@@ -15,52 +15,59 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UnitTest1.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-web-test/UnitTest1.cs">
+      <file leaf-file-name="GroupRemovalTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-test/GroupRemovalTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="384">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
-                <marker date="1484141459929" expanded="true" signature="6:36" ph="..." />
-                <marker date="1484141459929" expanded="true" signature="111:217" ph="{...}" />
-                <marker date="1484141459929" expanded="true" signature="160:211" ph="{...}" />
+                <marker date="1484214994304" expanded="true" signature="6:151" ph="..." />
+                <marker date="1484214994304" expanded="true" signature="183:540" ph="{...}" />
+                <marker date="1484214994304" expanded="true" signature="249:538" ph="{...}" />
+                <marker date="1484214994304" expanded="true" signature="310:532" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupCreationTests.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestBase.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-test/TestBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="61" column="53" lean-forward="false" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
+              <folding>
+                <marker date="1484215286518" expanded="true" signature="6:108" ph="..." />
+                <marker date="1484215286518" expanded="true" signature="140:2732" ph="{...}" />
+                <marker date="1484215286518" expanded="true" signature="168:2730" ph="{...}" />
+                <marker date="1484215286518" expanded="true" signature="347:512" ph="{...}" />
+                <marker date="1484215286518" expanded="true" signature="567:850" ph="{...}" />
+                <marker date="1484215286518" expanded="true" signature="593:653" ph="{...}" />
+                <marker date="1484215286518" expanded="true" signature="683:775" ph="{...}" />
+                <marker date="1484215286518" expanded="true" signature="889:977" ph="{...}" />
+                <marker date="1484215286518" expanded="true" signature="1029:1402" ph="{...}" />
+                <marker date="1484215286518" expanded="true" signature="1443:1527" ph="{...}" />
+                <marker date="1484215286518" expanded="true" signature="1571:1648" ph="{...}" />
+                <marker date="1484215286518" expanded="true" signature="1703:2158" ph="{...}" />
+                <marker date="1484215286518" expanded="true" signature="2204:2284" ph="{...}" />
+                <marker date="1484215286518" expanded="true" signature="2329:2417" ph="{...}" />
+                <marker date="1484215286518" expanded="true" signature="2455:2558" ph="{...}" />
+                <marker date="1484215286518" expanded="true" signature="2605:2724" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupCreationTests.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-web-test/GroupCreationTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="50" column="11" lean-forward="false" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+            <state relative-caret-position="64">
+              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding>
-                <marker date="1484210472655" expanded="true" signature="6:174" ph="..." />
-                <marker date="1484210472655" expanded="true" signature="33:98" ph="/* using System.Text.RegularExpressions; ... */" />
-                <marker date="1484210472655" expanded="true" signature="242:3921" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="298:3919" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="515:677" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="732:1013" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="758:817" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="847:939" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="1069:1369" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="1412:1499" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="1543:1622" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="1675:2124" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="2166:2242" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="2281:2364" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="2413:2781" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="2818:2904" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="2950:3184" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="2976:3073" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="3116:3174" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="3223:3461" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="3249:3349" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="3393:3451" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="3512:3913" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="3530:3839" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="3674:3729" ph="{...}" />
-                <marker date="1484210472655" expanded="true" signature="3848:3903" ph="{...}" />
+                <marker date="1484214994327" expanded="true" signature="6:121" ph="..." />
+                <marker date="1484214994327" expanded="true" signature="33:98" ph="/* using System.Text.RegularExpressions; ... */" />
+                <marker date="1484214994327" expanded="true" signature="189:626" ph="{...}" />
+                <marker date="1484214994327" expanded="true" signature="256:624" ph="{...}" />
+                <marker date="1484214994327" expanded="true" signature="318:618" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -74,17 +81,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/addressbook-web-test/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/addressbook-web-test/UnitTest2.cs" />
+        <option value="$PROJECT_DIR$/addressbook-web-test/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/addressbook-web-test/GroupRemovalTest.cs" />
         <option value="$PROJECT_DIR$/addressbook-web-test/GroupCreationTests.cs" />
+        <option value="$PROJECT_DIR$/addressbook-web-test/GroupRemovalTests.cs" />
+        <option value="$PROJECT_DIR$/addressbook-web-test/TestBase.cs" />
+        <option value="$PROJECT_DIR$/addressbook-web-test/Class1.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1416" />
+    <option name="width" value="1280" />
+    <option name="height" value="1400" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -122,6 +131,9 @@
         <option name="show-all-items" value="false" />
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager" selected=".NET Project.Default">
     <configuration default="true" type="DotNetProject" factoryName=".NET Project">
@@ -167,11 +179,12 @@
       <workItem from="1484142935390" duration="776000" />
       <workItem from="1484143733962" duration="5209000" />
       <workItem from="1484210695772" duration="86000" />
+      <workItem from="1484210829946" duration="3828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9402000" />
+    <option name="totallyTimeSpent" value="13230000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -183,30 +196,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1280" height="1400" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19713831" sideWeight="0.4964229" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="UnitTesting" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23688394" sideWeight="0.5178855" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UnitTesting" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23993559" sideWeight="0.5178855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23688394" sideWeight="0.48211446" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23688525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19645733" sideWeight="0.4964229" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.399841" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.399841" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -219,14 +232,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/addressbook-web-test/UnitTest1.cs">
+    <entry file="file://$PROJECT_DIR$/addressbook-web-test/GroupRemovalTests.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484141459929" expanded="true" signature="6:36" ph="..." />
-            <marker date="1484141459929" expanded="true" signature="111:217" ph="{...}" />
-            <marker date="1484141459929" expanded="true" signature="160:211" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="6:151" ph="..." />
+            <marker date="1484214994304" expanded="true" signature="183:540" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="249:538" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="310:532" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -236,44 +250,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484210472655" expanded="true" signature="6:174" ph="..." />
-            <marker date="1484210472655" expanded="true" signature="33:98" ph="/* using System.Text.RegularExpressions; ... */" />
-            <marker date="1484210472655" expanded="true" signature="242:3921" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="298:3919" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="515:677" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="732:1013" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="758:817" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="847:939" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1069:1369" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1412:1499" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1543:1622" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1675:2124" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2166:2242" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2281:2364" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2413:2781" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2818:2904" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2950:3184" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2976:3073" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3116:3174" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3223:3461" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3249:3349" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3393:3451" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3512:3913" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3530:3839" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3674:3729" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3848:3903" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="6:121" ph="..." />
+            <marker date="1484214994327" expanded="true" signature="33:98" ph="/* using System.Text.RegularExpressions; ... */" />
+            <marker date="1484214994327" expanded="true" signature="189:626" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="256:624" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="318:618" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-test/UnitTest1.cs">
+    <entry file="file://$PROJECT_DIR$/addressbook-web-test/GroupRemovalTests.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484141459929" expanded="true" signature="6:36" ph="..." />
-            <marker date="1484141459929" expanded="true" signature="111:217" ph="{...}" />
-            <marker date="1484141459929" expanded="true" signature="160:211" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="6:151" ph="..." />
+            <marker date="1484214994304" expanded="true" signature="183:540" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="249:538" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="310:532" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -283,44 +277,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484210472655" expanded="true" signature="6:174" ph="..." />
-            <marker date="1484210472655" expanded="true" signature="33:98" ph="/* using System.Text.RegularExpressions; ... */" />
-            <marker date="1484210472655" expanded="true" signature="242:3921" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="298:3919" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="515:677" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="732:1013" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="758:817" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="847:939" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1069:1369" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1412:1499" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1543:1622" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1675:2124" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2166:2242" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2281:2364" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2413:2781" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2818:2904" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2950:3184" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2976:3073" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3116:3174" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3223:3461" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3249:3349" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3393:3451" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3512:3913" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3530:3839" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3674:3729" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3848:3903" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="6:121" ph="..." />
+            <marker date="1484214994327" expanded="true" signature="33:98" ph="/* using System.Text.RegularExpressions; ... */" />
+            <marker date="1484214994327" expanded="true" signature="189:626" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="256:624" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="318:618" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-test/UnitTest1.cs">
+    <entry file="file://$PROJECT_DIR$/addressbook-web-test/GroupRemovalTests.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484141459929" expanded="true" signature="6:36" ph="..." />
-            <marker date="1484141459929" expanded="true" signature="111:217" ph="{...}" />
-            <marker date="1484141459929" expanded="true" signature="160:211" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="6:151" ph="..." />
+            <marker date="1484214994304" expanded="true" signature="183:540" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="249:538" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="310:532" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -330,44 +304,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484210472655" expanded="true" signature="6:174" ph="..." />
-            <marker date="1484210472655" expanded="true" signature="33:98" ph="/* using System.Text.RegularExpressions; ... */" />
-            <marker date="1484210472655" expanded="true" signature="242:3921" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="298:3919" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="515:677" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="732:1013" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="758:817" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="847:939" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1069:1369" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1412:1499" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1543:1622" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1675:2124" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2166:2242" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2281:2364" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2413:2781" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2818:2904" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2950:3184" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2976:3073" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3116:3174" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3223:3461" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3249:3349" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3393:3451" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3512:3913" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3530:3839" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3674:3729" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3848:3903" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="6:121" ph="..." />
+            <marker date="1484214994327" expanded="true" signature="33:98" ph="/* using System.Text.RegularExpressions; ... */" />
+            <marker date="1484214994327" expanded="true" signature="189:626" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="256:624" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="318:618" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-test/UnitTest1.cs">
+    <entry file="file://$PROJECT_DIR$/addressbook-web-test/GroupRemovalTests.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484141459929" expanded="true" signature="6:36" ph="..." />
-            <marker date="1484141459929" expanded="true" signature="111:217" ph="{...}" />
-            <marker date="1484141459929" expanded="true" signature="160:211" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="6:151" ph="..." />
+            <marker date="1484214994304" expanded="true" signature="183:540" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="249:538" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="310:532" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -377,44 +331,38 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484210472655" expanded="true" signature="6:174" ph="..." />
-            <marker date="1484210472655" expanded="true" signature="33:98" ph="/* using System.Text.RegularExpressions; ... */" />
-            <marker date="1484210472655" expanded="true" signature="242:3921" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="298:3919" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="515:677" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="732:1013" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="758:817" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="847:939" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1069:1369" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1412:1499" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1543:1622" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1675:2124" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2166:2242" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2281:2364" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2413:2781" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2818:2904" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2950:3184" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2976:3073" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3116:3174" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3223:3461" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3249:3349" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3393:3451" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3512:3913" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3530:3839" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3674:3729" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3848:3903" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="6:121" ph="..." />
+            <marker date="1484214994327" expanded="true" signature="33:98" ph="/* using System.Text.RegularExpressions; ... */" />
+            <marker date="1484214994327" expanded="true" signature="189:626" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="256:624" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="318:618" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-test/UnitTest1.cs">
+    <entry file="file://$PROJECT_DIR$/addressbook-web-test/GroupRemovalTests.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484141459929" expanded="true" signature="6:36" ph="..." />
-            <marker date="1484141459929" expanded="true" signature="111:217" ph="{...}" />
-            <marker date="1484141459929" expanded="true" signature="160:211" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="6:151" ph="..." />
+            <marker date="1484214994304" expanded="true" signature="183:540" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="249:538" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="310:532" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-test/GroupCreationTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484214994327" expanded="true" signature="6:121" ph="..." />
+            <marker date="1484214994327" expanded="true" signature="33:98" ph="/* using System.Text.RegularExpressions; ... */" />
+            <marker date="1484214994327" expanded="true" signature="189:626" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="256:624" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="318:618" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -426,37 +374,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-test/GroupRemovalTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1484214994304" expanded="true" signature="6:151" ph="..." />
+            <marker date="1484214994304" expanded="true" signature="183:540" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="249:538" ph="{...}" />
+            <marker date="1484214994304" expanded="true" signature="310:532" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-test/GroupCreationTests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="50" column="11" lean-forward="false" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        <state relative-caret-position="64">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding>
-            <marker date="1484210472655" expanded="true" signature="6:174" ph="..." />
-            <marker date="1484210472655" expanded="true" signature="33:98" ph="/* using System.Text.RegularExpressions; ... */" />
-            <marker date="1484210472655" expanded="true" signature="242:3921" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="298:3919" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="515:677" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="732:1013" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="758:817" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="847:939" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1069:1369" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1412:1499" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1543:1622" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="1675:2124" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2166:2242" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2281:2364" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2413:2781" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2818:2904" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2950:3184" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="2976:3073" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3116:3174" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3223:3461" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3249:3349" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3393:3451" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3512:3913" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3530:3839" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3674:3729" ph="{...}" />
-            <marker date="1484210472655" expanded="true" signature="3848:3903" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="6:121" ph="..." />
+            <marker date="1484214994327" expanded="true" signature="33:98" ph="/* using System.Text.RegularExpressions; ... */" />
+            <marker date="1484214994327" expanded="true" signature="189:626" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="256:624" ph="{...}" />
+            <marker date="1484214994327" expanded="true" signature="318:618" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-test/AccountData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484209965357" expanded="true" signature="70:603" ph="{...}" />
+            <marker date="1484209965357" expanded="true" signature="101:601" ph="{...}" />
+            <marker date="1484209965357" expanded="true" signature="237:335" ph="{...}" />
+            <marker date="1484209965357" expanded="true" signature="368:465" ph="{...}" />
+            <marker date="1484209965357" expanded="true" signature="498:595" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-test/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-test/TestBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="61" column="53" lean-forward="false" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
+          <folding>
+            <marker date="1484215286518" expanded="true" signature="6:108" ph="..." />
+            <marker date="1484215286518" expanded="true" signature="140:2732" ph="{...}" />
+            <marker date="1484215286518" expanded="true" signature="168:2730" ph="{...}" />
+            <marker date="1484215286518" expanded="true" signature="347:512" ph="{...}" />
+            <marker date="1484215286518" expanded="true" signature="567:850" ph="{...}" />
+            <marker date="1484215286518" expanded="true" signature="593:653" ph="{...}" />
+            <marker date="1484215286518" expanded="true" signature="683:775" ph="{...}" />
+            <marker date="1484215286518" expanded="true" signature="889:977" ph="{...}" />
+            <marker date="1484215286518" expanded="true" signature="1029:1402" ph="{...}" />
+            <marker date="1484215286518" expanded="true" signature="1443:1527" ph="{...}" />
+            <marker date="1484215286518" expanded="true" signature="1571:1648" ph="{...}" />
+            <marker date="1484215286518" expanded="true" signature="1703:2158" ph="{...}" />
+            <marker date="1484215286518" expanded="true" signature="2204:2284" ph="{...}" />
+            <marker date="1484215286518" expanded="true" signature="2329:2417" ph="{...}" />
+            <marker date="1484215286518" expanded="true" signature="2455:2558" ph="{...}" />
+            <marker date="1484215286518" expanded="true" signature="2605:2724" ph="{...}" />
           </folding>
         </state>
       </provider>

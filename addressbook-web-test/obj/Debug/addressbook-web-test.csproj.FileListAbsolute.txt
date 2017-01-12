@@ -9,3 +9,14 @@ D:\RiderProjects\addressbook-web-test\addressbook-web-test\bin\Debug\WebDriver.d
 D:\RiderProjects\addressbook-web-test\addressbook-web-test\bin\Debug\WebDriver.Support.dll
 D:\RiderProjects\addressbook-web-test\addressbook-web-test\bin\Debug\WebDriver.xml
 D:\RiderProjects\addressbook-web-test\addressbook-web-test\bin\Debug\WebDriver.Support.xml
+D:\mytestgitlab\seleniumpractice\addressbook-web-test\bin\Debug\addressbook_web_test.dll
+D:\mytestgitlab\seleniumpractice\addressbook-web-test\bin\Debug\addressbook_web_test.pdb
+D:\mytestgitlab\seleniumpractice\addressbook-web-test\bin\Debug\nunit.framework.dll
+D:\mytestgitlab\seleniumpractice\addressbook-web-test\bin\Debug\WebDriver.dll
+D:\mytestgitlab\seleniumpractice\addressbook-web-test\bin\Debug\WebDriver.Support.dll
+D:\mytestgitlab\seleniumpractice\addressbook-web-test\bin\Debug\nunit.framework.xml
+D:\mytestgitlab\seleniumpractice\addressbook-web-test\bin\Debug\WebDriver.xml
+D:\mytestgitlab\seleniumpractice\addressbook-web-test\bin\Debug\WebDriver.Support.xml
+D:\mytestgitlab\seleniumpractice\addressbook-web-test\obj\Debug\addressbook-web-test.csprojResolveAssemblyReference.cache
+D:\mytestgitlab\seleniumpractice\addressbook-web-test\obj\Debug\addressbook_web_test.dll
+D:\mytestgitlab\seleniumpractice\addressbook-web-test\obj\Debug\addressbook_web_test.pdb
