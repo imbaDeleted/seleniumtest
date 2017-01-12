@@ -1,0 +1,11 @@
+D:\RiderProjects\addressbook-web-test\addressbook-web-test\bin\Debug\addressbook_web_test.dll
+D:\RiderProjects\addressbook-web-test\addressbook-web-test\bin\Debug\addressbook_web_test.pdb
+D:\RiderProjects\addressbook-web-test\addressbook-web-test\bin\Debug\nunit.framework.dll
+D:\RiderProjects\addressbook-web-test\addressbook-web-test\bin\Debug\nunit.framework.xml
+D:\RiderProjects\addressbook-web-test\addressbook-web-test\obj\Debug\addressbook-web-test.csprojResolveAssemblyReference.cache
+D:\RiderProjects\addressbook-web-test\addressbook-web-test\obj\Debug\addressbook_web_test.dll
+D:\RiderProjects\addressbook-web-test\addressbook-web-test\obj\Debug\addressbook_web_test.pdb
+D:\RiderProjects\addressbook-web-test\addressbook-web-test\bin\Debug\WebDriver.dll
+D:\RiderProjects\addressbook-web-test\addressbook-web-test\bin\Debug\WebDriver.Support.dll
+D:\RiderProjects\addressbook-web-test\addressbook-web-test\bin\Debug\WebDriver.xml
+D:\RiderProjects\addressbook-web-test\addressbook-web-test\bin\Debug\WebDriver.Support.xml
