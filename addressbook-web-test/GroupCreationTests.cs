@@ -14,13 +14,13 @@ namespace addressbook_web_test
         [Test]
         public void GroupCreationTest()
         {
-            GoToHomePage();
-            Login(new AccountData("admin", "secret"));
-            GoToGroupsPage();
-            InitGroupCreation();
-            FillGroupForm(new GroupData("aaa", "bbbb", "cccc"));
-            SubmitGroupCreation();
-            ReturnToGroupsPage();
+            NavigationHelper.GoToHomePage();
+            LoginHelper.Login(new AccountData("admin", "secret"));
+            NavigationHelper.GoToGroupsPage();
+            GroupHelper.InitGroupCreation();
+            GroupHelper.FillGroupForm(new GroupData("aaa", "bbbb", "cccc"));
+            GroupHelper.SubmitGroupCreation();
+            GroupHelper.ReturnToGroupsPage();
         }
     }
 }
