@@ -10,9 +10,11 @@ namespace addressbook_web_test
     {
         private string BaseUrl;
 
-        public NavigationHelper(IWebDriver driver, string baseurl) :base(driver)
+        public NavigationHelper(ApplicationManager manager, string baseurl) :base(manager)
         {
+            this.Driver = Manager.Driver;
             this.BaseUrl = baseurl;
+            this.Manager = manager;
         }
 
         public void GoToHomePage()

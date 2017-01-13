@@ -6,10 +6,12 @@ namespace addressbook_web_test
     public class HelperBase
     {
         protected IWebDriver Driver;
+        protected ApplicationManager Manager;
 
-        public HelperBase(IWebDriver driver)
+        public HelperBase(ApplicationManager manager)
         {
-            this.Driver = driver;
+            this.Manager = manager;
+            this.Driver = manager.Driver;
         }
     }
 }

@@ -6,7 +6,7 @@
         private string _header;
         private string _footer;
 
-        public GroupData(string name, string header = "", string footer = "")
+        public GroupData(string name = "", string header = "", string footer = "")
         {
             this._name = name;
             this._header = header;

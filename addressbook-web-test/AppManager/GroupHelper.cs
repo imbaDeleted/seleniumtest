@@ -9,17 +9,29 @@ namespace addressbook_web_test
     public class GroupHelper : HelperBase
     {
 
-        public GroupHelper(IWebDriver driver) :base(driver)
+        public GroupHelper(ApplicationManager manager) :base(manager)
         {
 
         }
 
-        public void InitGroupCreation()
+        public GroupHelper Create(GroupData group)
+        {
+            Manager.navigator.GoToGroupsPage();
+
+            InitGroupCreation();
+            FillGroupForm(group);
+            SubmitGroupCreation();
+            ReturnToGroupsPage();
+            return this;
+        }
+
+        public GroupHelper InitGroupCreation()
         {
             Driver.FindElement(By.Name("new")).Click();
+            return this;
         }
 
-        public void FillGroupForm(GroupData group)
+        public GroupHelper FillGroupForm(GroupData group)
         {
             Driver.FindElement(By.Name("group_name")).Clear();
             Driver.FindElement(By.Name("group_name")).SendKeys(group.Name);
@@ -27,26 +39,31 @@ namespace addressbook_web_test
             Driver.FindElement(By.Name("group_header")).SendKeys(group.Header);
             Driver.FindElement(By.Name("group_footer")).Clear();
             Driver.FindElement(By.Name("group_footer")).SendKeys(group.Footer);
+            return this;
         }
 
-        public void SubmitGroupCreation()
+        public GroupHelper SubmitGroupCreation()
         {
             Driver.FindElement(By.Name("submit")).Click();
+            return this;
         }
 
-        public void ReturnToGroupsPage()
+        public GroupHelper ReturnToGroupsPage()
         {
             Driver.FindElement(By.LinkText("group page")).Click();
+            return this;
         }
 
-        public void RemoveGroup()
+        public GroupHelper RemoveGroup()
         {
             Driver.FindElement(By.XPath("(//input[@name='delete'])[2]")).Click();
+            return this;
         }
 
-        public void SelectGroup(int index)
+        public GroupHelper SelectGroup(int index)
         {
             Driver.FindElement(By.XPath("(//input[@name='selected[]'])[" + index + "]")).Click();
+            return this;
         }
     }
 }
