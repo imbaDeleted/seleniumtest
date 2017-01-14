@@ -13,8 +13,8 @@ namespace addressbook_web_test
         [Test]
         public void  GroupRemovalTest()
         {
-            applicationManager.navigationHelper.GoToGroupsPage();
-            applicationManager.groupHelper
+            app.navigator.GoToGroupsPage();
+            app.group
                 .SelectGroup(1)
                 .RemoveGroup()
                 .ReturnToGroupsPage();

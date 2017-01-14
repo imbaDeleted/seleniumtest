@@ -7,20 +7,20 @@ namespace addressbook_web_test
 {
     public class ApplicationManager
     {
-        protected IWebDriver Driver;
+        protected IWebDriver driver;
         protected string BaseUrl;
 
         protected LoginHelper LoginHelper;
         protected NavigationHelper NavigationHelper;
-        protected GroupHelper GroupHelperHelper;
+        protected GroupHelper GroupHelper;
 
         public ApplicationManager(string baseurl)
         {
-            Driver = new ChromeDriver();
+            driver = new ChromeDriver();
             BaseUrl = baseurl;
             LoginHelper = new LoginHelper(this);
             NavigationHelper = new NavigationHelper(this, this.BaseUrl);
-            GroupHelperHelper = new GroupHelper(this);
+            GroupHelper = new GroupHelper(this);
         }
 
         public void Stop()
@@ -35,24 +35,24 @@ namespace addressbook_web_test
             }
         }
 
-        public LoginHelper loginHelper
+        public LoginHelper Auth
         {
             get { return LoginHelper; }
         }
 
-        public NavigationHelper navigationHelper
+        public NavigationHelper navigator
         {
             get {return NavigationHelper;}
         }
 
-        public GroupHelper groupHelper
+        public GroupHelper group
         {
-            get {return GroupHelperHelper;}
+            get {return GroupHelper;}
         }
 
-        public IWebDriver driver
+        public IWebDriver Driver
         {
-            get { return Driver; }
+            get { return driver; }
         }
     }
 }

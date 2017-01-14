@@ -14,13 +14,13 @@ namespace addressbook_web_test
         [Test]
         public void GroupCreationTest()
         {
-            applicationManager.groupHelper.Create(new GroupData("aaa", "bbbb", "cccc"));
+            app.group.Create(new GroupData("aaa", "bbbb", "cccc"));
         }
 
         [Test]
         public void EmptyGroupCreationTest()
         {
-            applicationManager.groupHelper.Create(new GroupData());
+            app.group.Create(new GroupData());
         }
 
     }

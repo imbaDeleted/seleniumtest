@@ -20,6 +20,3 @@ D:\mytestgitlab\seleniumpractice\addressbook-web-test\bin\Debug\WebDriver.Suppor
 D:\mytestgitlab\seleniumpractice\addressbook-web-test\obj\Debug\addressbook-web-test.csprojResolveAssemblyReference.cache
 D:\mytestgitlab\seleniumpractice\addressbook-web-test\obj\Debug\addressbook_web_test.dll
 D:\mytestgitlab\seleniumpractice\addressbook-web-test\obj\Debug\addressbook_web_test.pdb
-D:\Git\SeleniumTests\addressbook-web-test\obj\Debug\addressbook-web-test.csprojResolveAssemblyReference.cache
-D:\Git\SeleniumTests\addressbook-web-test\obj\Debug\addressbook_web_test.dll
-D:\Git\SeleniumTests\addressbook-web-test\obj\Debug\addressbook_web_test.pdb
