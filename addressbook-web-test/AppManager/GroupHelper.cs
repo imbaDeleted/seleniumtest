@@ -60,6 +60,15 @@ namespace addressbook_web_test
             return this;
         }
 
+        public GroupHelper Remove(int n)
+        {
+            Manager.navigator.GoToGroupsPage();
+            SelectGroup(n);
+            RemoveGroup();
+            ReturnToGroupsPage();
+            return this;
+        }
+
         public GroupHelper SelectGroup(int index)
         {
             Driver.FindElement(By.XPath("(//input[@name='selected[]'])[" + index + "]")).Click();

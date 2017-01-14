@@ -11,13 +11,9 @@ namespace addressbook_web_test
     public class GroupRemovalTests : TestBase
     {
         [Test]
-        public void  GroupRemovalTest()
+        public void GroupRemovalTest()
         {
-            app.navigator.GoToGroupsPage();
-            app.group
-                .SelectGroup(1)
-                .RemoveGroup()
-                .ReturnToGroupsPage();
+            app.group.Remove(1);
         }
     }
 }

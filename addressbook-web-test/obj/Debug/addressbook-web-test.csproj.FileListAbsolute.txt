@@ -20,3 +20,14 @@ D:\mytestgitlab\seleniumpractice\addressbook-web-test\bin\Debug\WebDriver.Suppor
 D:\mytestgitlab\seleniumpractice\addressbook-web-test\obj\Debug\addressbook-web-test.csprojResolveAssemblyReference.cache
 D:\mytestgitlab\seleniumpractice\addressbook-web-test\obj\Debug\addressbook_web_test.dll
 D:\mytestgitlab\seleniumpractice\addressbook-web-test\obj\Debug\addressbook_web_test.pdb
+D:\Git\SeleniumTests\addressbook-web-test\bin\Debug\addressbook_web_test.dll
+D:\Git\SeleniumTests\addressbook-web-test\bin\Debug\addressbook_web_test.pdb
+D:\Git\SeleniumTests\addressbook-web-test\bin\Debug\nunit.framework.dll
+D:\Git\SeleniumTests\addressbook-web-test\bin\Debug\WebDriver.dll
+D:\Git\SeleniumTests\addressbook-web-test\bin\Debug\WebDriver.Support.dll
+D:\Git\SeleniumTests\addressbook-web-test\bin\Debug\nunit.framework.xml
+D:\Git\SeleniumTests\addressbook-web-test\bin\Debug\WebDriver.xml
+D:\Git\SeleniumTests\addressbook-web-test\bin\Debug\WebDriver.Support.xml
+D:\Git\SeleniumTests\addressbook-web-test\obj\Debug\addressbook-web-test.csprojResolveAssemblyReference.cache
+D:\Git\SeleniumTests\addressbook-web-test\obj\Debug\addressbook_web_test.dll
+D:\Git\SeleniumTests\addressbook-web-test\obj\Debug\addressbook_web_test.pdb
