@@ -16,7 +16,7 @@ namespace addressbook_web_test
 
         public GroupHelper Create(GroupData group)
         {
-            Manager.navigator.GoToGroupsPage();
+            Manager.navigationHelper.GoToGroupsPage();
 
             InitGroupCreation();
             FillGroupForm(group);
@@ -50,7 +50,7 @@ namespace addressbook_web_test
 
         public GroupHelper ReturnToGroupsPage()
         {
-            Driver.FindElement(By.LinkText("group page")).Click();
+            Driver.FindElement(By.LinkText("groupHelper page")).Click();
             return this;
         }
 
