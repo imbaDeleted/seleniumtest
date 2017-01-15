@@ -7,20 +7,22 @@ namespace addressbook_web_test
 {
     public class ApplicationManager
     {
-        protected IWebDriver driver;
+        protected IWebDriver _driver;
         protected string BaseUrl;
 
-        protected LoginHelper LoginHelper;
-        protected NavigationHelper NavigationHelper;
-        protected GroupHelper GroupHelper;
+        protected LoginHelper _loginHelper;
+        protected NavigationHelper _navigationHelper;
+        protected GroupHelper _groupHelper;
+        protected ContactHelper _contactHelper;
 
         public ApplicationManager(string baseurl)
         {
-            driver = new ChromeDriver();
+            _driver = new ChromeDriver();
             BaseUrl = baseurl;
-            LoginHelper = new LoginHelper(this);
-            NavigationHelper = new NavigationHelper(this, this.BaseUrl);
-            GroupHelper = new GroupHelper(this);
+            _loginHelper = new LoginHelper(this);
+            _navigationHelper = new NavigationHelper(this, this.BaseUrl);
+            _groupHelper = new GroupHelper(this);
+            _contactHelper = new ContactHelper(this);
         }
 
         public void Stop()
@@ -35,24 +37,29 @@ namespace addressbook_web_test
             }
         }
 
-        public LoginHelper Auth
+        public LoginHelper LoginHelper
         {
-            get { return LoginHelper; }
+            get { return _loginHelper; }
         }
 
-        public NavigationHelper navigator
+        public NavigationHelper NavigationHelper
         {
-            get {return NavigationHelper;}
+            get {return _navigationHelper;}
         }
 
-        public GroupHelper group
+        public GroupHelper GroupHelper
         {
-            get {return GroupHelper;}
+            get {return _groupHelper;}
         }
 
         public IWebDriver Driver
         {
-            get { return driver; }
+            get { return _driver; }
+        }
+
+        public ContactHelper ContactHelper
+        {
+            get { return _contactHelper; }
         }
     }
 }

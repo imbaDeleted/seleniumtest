@@ -6,20 +6,20 @@ namespace addressbook_web_test
     public class TestBase
     {
 
-        protected ApplicationManager app;
+        protected ApplicationManager _applicationManager;
 
         [SetUp]
         public void SetupTest()
         {
-            app = new ApplicationManager("http://localhost:8080");
-            app.navigator.GoToHomePage();
-            app.Auth.Login(new AccountData("admin", "secret"));
+            _applicationManager = new ApplicationManager("http://localhost:8080");
+            _applicationManager.NavigationHelper.GoToHomePage();
+            _applicationManager.LoginHelper.Login(new AccountData("admin", "secret"));
         }
 
         [TearDown]
         public void TeardownTest()
         {
-            app.Stop();
+            _applicationManager.Stop();
         }
 
 
