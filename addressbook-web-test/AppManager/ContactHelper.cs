@@ -26,42 +26,25 @@ namespace addressbook_web_test
 
         public ContactHelper FillContactForm(ContactData contact)
         {
-            Driver.FindElement(By.Name("firstname")).Clear();
-            Driver.FindElement(By.Name("firstname")).SendKeys(contact.FirstName);
-            Driver.FindElement(By.Name("middlename")).Clear();
-            Driver.FindElement(By.Name("middlename")).SendKeys(contact.MiddleName);
-            Driver.FindElement(By.Name("lastname")).Clear();
-            Driver.FindElement(By.Name("lastname")).SendKeys(contact.LastName);
-            Driver.FindElement(By.Name("nickname")).Clear();
-            Driver.FindElement(By.Name("nickname")).SendKeys(contact.NickName);
-            Driver.FindElement(By.Name("title")).Clear();
-            Driver.FindElement(By.Name("title")).SendKeys(contact.Title);
-            Driver.FindElement(By.Name("company")).Clear();
-            Driver.FindElement(By.Name("company")).SendKeys(contact.Company);
-            Driver.FindElement(By.Name("address")).Clear();
-            Driver.FindElement(By.Name("address")).SendKeys(contact.Address);
-            Driver.FindElement(By.Name("home")).Clear();
-            Driver.FindElement(By.Name("home")).SendKeys(contact.Home);
-            Driver.FindElement(By.Name("mobile")).Clear();
-            Driver.FindElement(By.Name("mobile")).SendKeys(contact.Mobile);
-            Driver.FindElement(By.Name("work")).Clear();
-            Driver.FindElement(By.Name("work")).SendKeys(contact.Work);
-            Driver.FindElement(By.Name("email")).Clear();
-            Driver.FindElement(By.Name("email")).SendKeys(contact.Email);
-            Driver.FindElement(By.Name("email2")).Clear();
-            Driver.FindElement(By.Name("email2")).SendKeys(contact.Email2);
-            Driver.FindElement(By.Name("homepage")).Clear();
-            Driver.FindElement(By.Name("homepage")).SendKeys(contact.HomePage);
+            Type(By.Name("firstname"), contact.FirstName);
+            Type(By.Name("middlename"), contact.MiddleName);
+            Type(By.Name("lastname"), contact.LastName);
+            Type(By.Name("nickname"), contact.NickName);
+            Type(By.Name("title"), contact.Title);
+            Type(By.Name("company"), contact.Company);
+            Type(By.Name("address"), contact.Address);
+            Type(By.Name("home"), contact.Home);
+            Type(By.Name("mobile"), contact.Mobile);
+            Type(By.Name("work"), contact.Work);
+            Type(By.Name("email"), contact.Email);
+            Type(By.Name("email2"), contact.Email2);
+            Type(By.Name("homepage"), contact.HomePage);
             new SelectElement(Driver.FindElement(By.Name("bday"))).SelectByText(contact.Birthday);
             new SelectElement(Driver.FindElement(By.Name("bmonth"))).SelectByText(contact.BitrhMonth);
-            Driver.FindElement(By.Name("byear")).Clear();
-            Driver.FindElement(By.Name("byear")).SendKeys(contact.BithYear);
-            Driver.FindElement(By.Name("address2")).Clear();
-            Driver.FindElement(By.Name("address2")).SendKeys(contact.Address2);
-            Driver.FindElement(By.Name("phone2")).Clear();
-            Driver.FindElement(By.Name("phone2")).SendKeys(contact.Phone2);
-            Driver.FindElement(By.Name("notes")).Clear();
-            Driver.FindElement(By.Name("notes")).SendKeys(contact.Notes);
+            Type(By.Name("byear"), contact.BithYear);
+            Type(By.Name("address2"), contact.Address2);
+            Type(By.Name("phone2"), contact.Phone2);
+            Type(By.Name("notes"), contact.Notes);
             return this;
         }
 

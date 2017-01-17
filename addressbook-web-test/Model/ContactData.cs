@@ -22,9 +22,9 @@
         private string _phone2 = "987654";
         private string _notes = "PREVED KAG DILA?";
 
-        public ContactData(string firstname = "Grigory", string middlename = "Vitalevich", string lastname = "Fomin", string nickname = "Deleted", string title = "dunno",
-            string company = "sravni", string address = "dom kolotuchkina", string homenumber = "111111", string mobilenumber = "222222", string worknumber = "33333",
-            string email = "pam@pam.com", string homepage = "http://1111sad.io", string bday = "1", string bMonth = "December", string byear = "1990")
+        public ContactData(string firstname = null, string middlename = null, string lastname = null, string nickname = null, string title = null,
+            string company = null, string address = null, string homenumber = null, string mobilenumber = null, string worknumber = null,
+            string email = null, string homepage = null, string bday = null, string bMonth = null, string byear = null)
         {
             _firstName = firstname;
             _middleName = middlename;

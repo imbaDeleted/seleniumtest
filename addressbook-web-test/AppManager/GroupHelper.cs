@@ -33,12 +33,9 @@ namespace addressbook_web_test
 
         public GroupHelper FillGroupForm(GroupData group)
         {
-            Driver.FindElement(By.Name("group_name")).Clear();
-            Driver.FindElement(By.Name("group_name")).SendKeys(group.Name);
-            Driver.FindElement(By.Name("group_header")).Clear();
-            Driver.FindElement(By.Name("group_header")).SendKeys(group.Header);
-            Driver.FindElement(By.Name("group_footer")).Clear();
-            Driver.FindElement(By.Name("group_footer")).SendKeys(group.Footer);
+            Type(By.Name("group_name"), group.Name);
+            Type(By.Name("group_header"), group.Header);
+            Type(By.Name("group_footer"), group.Footer);
             return this;
         }
 
