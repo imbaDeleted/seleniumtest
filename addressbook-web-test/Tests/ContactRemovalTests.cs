@@ -10,7 +10,7 @@ namespace addressbook_web_test
         [Test]
         public void ContactRemovalTest()
         {
-            _applicationManager.ContactHelper.Remove("gri");
+            _applicationManager.ContactHelper.Remove("Gri");
         }
     }
 }

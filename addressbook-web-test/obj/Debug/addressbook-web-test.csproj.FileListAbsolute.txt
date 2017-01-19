@@ -31,3 +31,5 @@ D:\Git\SeleniumTests\addressbook-web-test\bin\Debug\WebDriver.Support.xml
 D:\Git\SeleniumTests\addressbook-web-test\obj\Debug\addressbook-web-test.csprojResolveAssemblyReference.cache
 D:\Git\SeleniumTests\addressbook-web-test\obj\Debug\addressbook_web_test.dll
 D:\Git\SeleniumTests\addressbook-web-test\obj\Debug\addressbook_web_test.pdb
+D:\Git\SeleniumTests\addressbook-web-test\bin\Debug\nunit.mocks.dll
+D:\Git\SeleniumTests\addressbook-web-test\bin\Debug\pnunit.framework.dll

@@ -15,16 +15,16 @@
         private string _email;
         private string _email2 = "dam@damdamd.com";
         private string _homePage;
-        private string _birthday;
-        private string _bitrhMonth;
-        private string _bithYear;
+        private string _birthday = "1";
+        private string _bitrhMonth = "December";
+        private string _bithYear = "1992";
         private string _address2 = "ylica pushkina";
         private string _phone2 = "987654";
         private string _notes = "PREVED KAG DILA?";
 
-        public ContactData(string firstname = null, string middlename = null, string lastname = null, string nickname = null, string title = null,
+        public ContactData(string firstname = "Grigory", string middlename = null, string lastname = null, string nickname = null, string title = null,
             string company = null, string address = null, string homenumber = null, string mobilenumber = null, string worknumber = null,
-            string email = null, string homepage = null, string bday = null, string bMonth = null, string byear = null)
+            string email = null, string homepage = null)
         {
             _firstName = firstname;
             _middleName = middlename;
@@ -38,9 +38,6 @@
             _work = worknumber;
             _email = email;
             _homePage = homepage;
-            _birthday = bday;
-            _bitrhMonth = bMonth;
-            _bithYear = byear;
         }
 
         public string FirstName

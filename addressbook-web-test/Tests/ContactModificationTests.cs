@@ -11,7 +11,7 @@ namespace addressbook_web_test
         [Test]
         public void GroupModificationTest()
         {
-            _applicationManager.ContactHelper.Modify("gri", new ContactData());
+            _applicationManager.ContactHelper.Modify("Gri", new ContactData());
         }
     }
 }
