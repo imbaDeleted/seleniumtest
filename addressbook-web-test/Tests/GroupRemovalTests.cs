@@ -8,7 +8,8 @@ using OpenQA.Selenium.Support.UI;
 namespace addressbook_web_test
 {
     [TestFixture]
-    public class GroupRemovalTests : TestBase
+
+    public class GroupRemovalTests : AuthTestBase
     {
         [Test]
         public void GroupRemovalTest()

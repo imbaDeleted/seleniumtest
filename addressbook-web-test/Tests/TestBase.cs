@@ -9,10 +9,10 @@ namespace addressbook_web_test
         protected ApplicationManager _applicationManager;
 
         [SetUp]
-        public void SetupTest()
+        public void SetupApplicationManager()
         {
             _applicationManager = ApplicationManager.GetInstance();
-
+            //_applicationManager.LoginHelper.Login(new AccountData("admin", "secret"));
         }
     }
 }
