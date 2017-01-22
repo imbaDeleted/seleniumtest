@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Internal;
 using OpenQA.Selenium.Support.UI;
 
 namespace addressbook_web_test
@@ -51,6 +52,7 @@ namespace addressbook_web_test
         public ContactHelper SubmitContactCreation()
         {
             Driver.FindElement(By.Name("submit")).Click();
+            Driver.FindElement(By.LinkText("home page")).Click();
             return this;
         }
 
@@ -64,15 +66,33 @@ namespace addressbook_web_test
             return this;
         }
 
-        public ContactHelper Remove(string name)
+        public ContactHelper Remove()
         {
-            Driver.FindElement(By.Name("searchstring")).Clear();
-            Driver.FindElement(By.Name("searchstring")).SendKeys(name);
-            Driver.FindElement(By.Id("3")).Click();
+            Driver.FindElement(By.Name("selected[]")).Click();
             Driver.FindElement(By.XPath("//input[@value='Delete']")).Click();
             Driver.SwitchTo().Alert().Accept();
             //Assert.IsTrue(Regex.IsMatch(CloseAlertAndGetItsText(), "^Delete 1 addresses[\\s\\S]$"));
             return this;
+        }
+
+        public ContactHelper Remove(string name)
+        {
+            Driver.FindElement(By.Name("searchstring")).Clear();
+            Driver.FindElement(By.Name("searchstring")).SendKeys(name);
+            Driver.FindElement(By.Name("selected[]")).Click();
+            Driver.FindElement(By.XPath("//input[@value='Delete']")).Click();
+            Driver.SwitchTo().Alert().Accept();
+            //Assert.IsTrue(Regex.IsMatch(CloseAlertAndGetItsText(), "^Delete 1 addresses[\\s\\S]$"));
+            return this;
+        }
+
+        public bool ContactExist()
+        {
+            if (Driver.FindElement(By.Id("search_count")).Text != "0")
+            {
+                return true;
+            }
+            return false;
         }
     }
 }
