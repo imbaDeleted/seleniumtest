@@ -4,6 +4,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using NUnit.Framework;
 using OpenQA.Selenium.Support.UI;
+using System.Collections.Generic;
 
 namespace addressbook_web_test
 {
@@ -14,7 +15,21 @@ namespace addressbook_web_test
         [Test]
         public void GroupRemovalTest()
         {
-            _applicationManager.GroupHelper.Remove(1);
+            List<GroupData> oldGroups = _applicationManager.GroupHelper.GetGroupList();
+
+            _applicationManager.GroupHelper.Remove(0);
+
+            Assert.AreEqual(oldGroups.Count-1, _applicationManager.GroupHelper.GetGroupCount());
+
+            List<GroupData> newGroups = _applicationManager.GroupHelper.GetGroupList();
+
+            foreach (var group in newGroups)
+            {
+                Assert.AreNotEqual(group.ID, oldGroups[0].ID);
+            }
+
+            oldGroups.RemoveAt(0);
+            Assert.AreEqual(oldGroups, newGroups);
         }
     }
 }

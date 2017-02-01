@@ -11,7 +11,7 @@ namespace addressbook_web_test
         [SetUp]
         public void SetupApplicationManager()
         {
-            _applicationManager = ApplicationManager.GetInstance();
+            _applicationManager = ApplicationManager.GetInstance("http://localhost:8080");
             //_applicationManager.LoginHelper.Login(new AccountData("admin", "secret"));
         }
     }

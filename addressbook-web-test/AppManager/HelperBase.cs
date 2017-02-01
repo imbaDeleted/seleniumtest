@@ -1,17 +1,19 @@
-﻿using OpenQA.Selenium;
+﻿using System.Xml.Schema;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.Extensions;
 
 namespace addressbook_web_test
 {
     public class HelperBase
     {
         protected IWebDriver Driver;
-        protected ApplicationManager Manager;
+        protected ApplicationManager _applicationManager;
 
-        public HelperBase(ApplicationManager manager)
+        public HelperBase(ApplicationManager applicationManager)
         {
-            this.Manager = manager;
-            this.Driver = manager.Driver;
+            this._applicationManager = applicationManager;
+            this.Driver = applicationManager.Driver;
         }
 
         public void Type(By locator, string text)

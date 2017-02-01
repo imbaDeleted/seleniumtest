@@ -20,6 +20,7 @@ namespace addressbook_web_test
                 _applicationManager.ContactHelper.Remove();
             }
 
+
         }
     }
 }

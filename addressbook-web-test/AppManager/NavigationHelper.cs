@@ -10,20 +10,28 @@ namespace addressbook_web_test
     {
         private string BaseUrl;
 
-        public NavigationHelper(ApplicationManager manager, string baseurl) :base(manager)
+        public NavigationHelper(ApplicationManager applicationManager, string baseurl) :base(applicationManager)
         {
-            this.Driver = Manager.Driver;
+            this.Driver = _applicationManager.Driver;
             this.BaseUrl = baseurl;
-            this.Manager = manager;
+            this._applicationManager = applicationManager;
         }
 
         public void GoToHomePage()
         {
+            if (Driver.Url == BaseUrl + "/addressbook")
+            {
+                return;
+            }
             Driver.Navigate().GoToUrl(BaseUrl + "/addressbook/");
         }
 
         public void GoToGroupsPage()
         {
+            if (Driver.Url == BaseUrl + "/addressbook/group.php" && IsElementPresent(By.Name("New")))
+            {
+                return;
+            }
             Driver.FindElement(By.LinkText("groups")).Click();
         }
     }

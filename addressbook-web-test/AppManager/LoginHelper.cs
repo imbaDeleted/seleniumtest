@@ -6,7 +6,7 @@ namespace addressbook_web_test
     public class LoginHelper : HelperBase
     {
 
-        public LoginHelper(ApplicationManager manager) : base(manager)
+        public LoginHelper(ApplicationManager applicationManager) : base(applicationManager)
         {
 
         }

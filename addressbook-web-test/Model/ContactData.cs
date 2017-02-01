@@ -1,6 +1,9 @@
-﻿namespace addressbook_web_test
+﻿using System;
+using System.Security;
+
+namespace addressbook_web_test
 {
-    public class ContactData
+    public class ContactData : IEquatable<ContactData>, IComparable<ContactData>
     {
         private string _firstName;
         private string _middleName;
@@ -22,7 +25,7 @@
         private string _phone2 = "987654";
         private string _notes = "PREVED KAG DILA?";
 
-        public ContactData(string firstname = "Grigory", string middlename = null, string lastname = null, string nickname = null, string title = null,
+        public ContactData(string firstname = "Grigory", string lastname = null, string middlename = null, string nickname = null, string title = null,
             string company = null, string address = null, string homenumber = null, string mobilenumber = null, string worknumber = null,
             string email = null, string homepage = null)
         {
@@ -38,6 +41,37 @@
             _work = worknumber;
             _email = email;
             _homePage = homepage;
+        }
+
+        public int CompareTo(ContactData other)
+        {
+            if (object.ReferenceEquals(other, null))
+            {
+                return 1;
+            }
+            if (FirstName.CompareTo(other.FirstName) == 1 && LastName.CompareTo(other.LastName) == 1)
+            {
+                return 1;
+            }
+            return 0;
+        }
+
+        public bool Equals(ContactData other)
+        {
+            if (object.ReferenceEquals(other, null))
+            {
+                return false;
+            }
+            if (object.ReferenceEquals(this, other))
+            {
+                return true;
+            }
+            return (FirstName == other.FirstName && LastName == other.LastName);
+        }
+
+        public override int GetHashCode()
+        {
+            return (FirstName.GetHashCode() + LastName.GetHashCode());
         }
 
         public string FirstName

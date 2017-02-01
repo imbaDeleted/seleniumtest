@@ -1,12 +1,13 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Internal;
 using OpenQA.Selenium.Support.UI;
+using System.Collections.Generic;
 
 namespace addressbook_web_test
 {
     public class ContactHelper : HelperBase
     {
-        public ContactHelper(ApplicationManager manager) : base(manager)
+        public ContactHelper(ApplicationManager applicationManager) : base(applicationManager)
         {
 
         }
@@ -93,6 +94,22 @@ namespace addressbook_web_test
                 return true;
             }
             return false;
+        }
+
+        public List<ContactData> GetContactList()
+        {
+            _applicationManager.NavigationHelper.GoToHomePage();
+
+            List<ContactData> contacts = new List<ContactData>();
+            ICollection<IWebElement> elements = Driver.FindElements(By.CssSelector("img[alt='Details']"));
+
+            for (int index = 1; index <= elements.Count; index++)
+            {
+                contacts.Add(new ContactData(Driver.FindElement(By.CssSelector("#maintable > tbody:nth-child(1) > tr:nth-child("+ (index+1) +") > td:nth-child(2)")).Text,
+                                             Driver.FindElement(By.CssSelector("#maintable > tbody:nth-child(1) > tr:nth-child("+ (index+1) +") > td:nth-child(3)")).Text));
+            }
+
+            return contacts;
         }
     }
 }

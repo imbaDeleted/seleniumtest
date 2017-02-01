@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text;
 using NUnit.Framework;
 using OpenQA.Selenium;
@@ -9,14 +10,14 @@ namespace addressbook_web_test
     public class GroupHelper : HelperBase
     {
 
-        public GroupHelper(ApplicationManager manager) :base(manager)
+        public GroupHelper(ApplicationManager applicationManager) :base(applicationManager)
         {
 
         }
 
         public GroupHelper Create(GroupData group)
         {
-            Manager.NavigationHelper.GoToGroupsPage();
+            _applicationManager.NavigationHelper.GoToGroupsPage();
 
             InitGroupCreation();
             FillGroupForm(group);
@@ -42,6 +43,7 @@ namespace addressbook_web_test
         public GroupHelper SubmitGroupCreation()
         {
             Driver.FindElement(By.Name("submit")).Click();
+            groupCache = null;
             return this;
         }
 
@@ -54,27 +56,29 @@ namespace addressbook_web_test
         public GroupHelper RemoveGroup()
         {
             Driver.FindElement(By.XPath("(//input[@name='delete'])[2]")).Click();
+            groupCache = null;
             return this;
         }
 
         public GroupHelper Remove(int n)
         {
-            Manager.NavigationHelper.GoToGroupsPage();
+            _applicationManager.NavigationHelper.GoToGroupsPage();
             SelectGroup(n);
             RemoveGroup();
             ReturnToGroupsPage();
+            groupCache = null;
             return this;
         }
 
         public GroupHelper SelectGroup(int index)
         {
-            Driver.FindElement(By.XPath("(//input[@name='selected[]'])[" + index + "]")).Click();
+            Driver.FindElement(By.XPath("(//input[@name='selected[]'])[" + (index+1) + "]")).Click();
             return this;
         }
 
         public GroupHelper Modify(int i, GroupData groupData)
         {
-            Manager.NavigationHelper.GoToGroupsPage();
+            _applicationManager.NavigationHelper.GoToGroupsPage();
             SelectGroup(i);
             InitGroupModification();
             FillGroupForm(groupData);
@@ -92,7 +96,36 @@ namespace addressbook_web_test
         public GroupHelper SubmitGroupModification()
         {
             Driver.FindElement(By.Name("update")).Click();
+            groupCache = null;
             return this;
+        }
+
+        private List<GroupData> groupCache = null;
+
+        public List<GroupData> GetGroupList()
+        {
+            if (groupCache == null)
+            {
+                groupCache = new List<GroupData>();
+                _applicationManager.NavigationHelper.GoToGroupsPage();
+
+                //List<GroupData> groups = new List<GroupData>();
+
+                ICollection<IWebElement> elements = Driver.FindElements(By.CssSelector("span.group"));
+                foreach (IWebElement element in elements)
+                {
+                    groupCache.Add(new GroupData(element.Text){
+                            ID = element.FindElement(By.TagName("input")).GetAttribute("value")
+                        });
+                }
+            }
+
+            return new List<GroupData>(groupCache);
+        }
+
+        public int GetGroupCount()
+        {
+            return Driver.FindElements(By.CssSelector("span.group")).Count;
         }
     }
 }

@@ -1,8 +1,11 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Net;
+using System.Security.Policy;
 using System.Threading;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Remote;
 
 
 namespace addressbook_web_test
@@ -18,10 +21,10 @@ namespace addressbook_web_test
         protected ContactHelper _contactHelper;
         private static ThreadLocal<ApplicationManager> _applicationManager = new ThreadLocal<ApplicationManager>();
 
-        private ApplicationManager()
+        private ApplicationManager(string baseurl)
         {
             _driver = new ChromeDriver();
-            //BaseUrl = baseurl;
+            BaseUrl = baseurl;
             _loginHelper = new LoginHelper(this);
             _navigationHelper = new NavigationHelper(this, BaseUrl);
             _groupHelper = new GroupHelper(this);
@@ -40,11 +43,11 @@ namespace addressbook_web_test
             }
         }
 
-        public static ApplicationManager GetInstance()
+        public static ApplicationManager GetInstance(string url)
         {
             if (! _applicationManager.IsValueCreated)
             {
-                ApplicationManager NewInstance = new ApplicationManager();
+                ApplicationManager NewInstance = new ApplicationManager(url);
                 _applicationManager.Value = NewInstance;
                 NewInstance.NavigationHelper.GoToHomePage();
             }
