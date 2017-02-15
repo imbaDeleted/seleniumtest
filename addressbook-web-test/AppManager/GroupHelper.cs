@@ -114,10 +114,13 @@ namespace addressbook_web_test
                 ICollection<IWebElement> elements = Driver.FindElements(By.CssSelector("span.group"));
                 foreach (IWebElement element in elements)
                 {
-                    groupCache.Add(new GroupData(element.Text){
+                    groupCache.Add(new GroupData(null){
                             ID = element.FindElement(By.TagName("input")).GetAttribute("value")
                         });
                 }
+
+                string AllGroupNames = Driver.FindElement(By.CssSelector("dev#content form")).Text;
+                string[] parts = AllGroupNames.Split('\n');
             }
 
             return new List<GroupData>(groupCache);

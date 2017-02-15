@@ -49,7 +49,6 @@ namespace addressbook_web_test
             if (IsLoggedIn())
             {
                 Driver.FindElement(By.LinkText("Logout")).Click();
-
             }
         }
     }
