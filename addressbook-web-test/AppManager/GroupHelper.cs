@@ -119,8 +119,20 @@ namespace addressbook_web_test
                         });
                 }
 
-                string AllGroupNames = Driver.FindElement(By.CssSelector("dev#content form")).Text;
+                string AllGroupNames = Driver.FindElement(By.CssSelector("div#content form")).Text;
                 string[] parts = AllGroupNames.Split('\n');
+                int shift = groupCache.Count - parts.Length;
+                for (int i = 0; i < groupCache.Count; i++)
+                {
+                    if (i < shift)
+                    {
+                        groupCache[i].Name = "";
+                    }
+                    else
+                    {
+                        groupCache[i].Name = parts[i-shift].Trim();
+                    }
+                }
             }
 
             return new List<GroupData>(groupCache);
