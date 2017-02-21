@@ -4,6 +4,7 @@ using System.Collections.Generic;
 namespace addressbook_web_test
 {
     [TestFixture]
+  //  [Parallelizable]
 
     public class ContactCreationTests : AuthTestBase
     {
